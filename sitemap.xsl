@@ -11,10 +11,10 @@
     <html>
       <head>
         <title>Sitemap file</title>
-        <script type="text/javascript" src="/core/assets/vendor/jquery/jquery.min.js"/>
-        <script type="text/javascript" src="/modules/contrib/simple_sitemap/xsl/jquery.tablesorter.min.js"/>
-        <script type="text/javascript" src="/modules/contrib/simple_sitemap/xsl/parser-date-iso8601.min.js"/>
-        <script type="text/javascript" src="/modules/contrib/simple_sitemap/xsl/simple_sitemap.xsl.js"/>
+        <script type="text/javascript" src="/durham-civil-rights-map-static/core/assets/vendor/jquery/jquery.min.js"/>
+        <script type="text/javascript" src="/durham-civil-rights-map-static/modules/contrib/simple_sitemap/xsl/jquery.tablesorter.min.js"/>
+        <script type="text/javascript" src="/durham-civil-rights-map-static/modules/contrib/simple_sitemap/xsl/parser-date-iso8601.min.js"/>
+        <script type="text/javascript" src="/durham-civil-rights-map-static/modules/contrib/simple_sitemap/xsl/simple_sitemap.xsl.js"/>
         <link href="/durham-civil-rights-map-static/modules/contrib/simple_sitemap/xsl/simple_sitemap.xsl.css" type="text/css" rel="stylesheet"/>
       </head>
       <body>
