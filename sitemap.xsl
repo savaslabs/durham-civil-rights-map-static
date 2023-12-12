@@ -15,7 +15,7 @@
         <script type="text/javascript" src="/modules/contrib/simple_sitemap/xsl/jquery.tablesorter.min.js"/>
         <script type="text/javascript" src="/modules/contrib/simple_sitemap/xsl/parser-date-iso8601.min.js"/>
         <script type="text/javascript" src="/modules/contrib/simple_sitemap/xsl/simple_sitemap.xsl.js"/>
-        <link href="/modules/contrib/simple_sitemap/xsl/simple_sitemap.xsl.css" type="text/css" rel="stylesheet"/>
+        <link href="/durham-civil-rights-map-static/modules/contrib/simple_sitemap/xsl/simple_sitemap.xsl.css" type="text/css" rel="stylesheet"/>
       </head>
       <body>
         <h1>Sitemap file</h1>
