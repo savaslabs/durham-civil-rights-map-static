@@ -18,11 +18,11 @@
     map.addLayer(baseLayer);
 
     // Set path to marker image.
-    L.Icon.Default.imagePath = '/themes/custom/mappy/images/leaflet';
+    L.Icon.Default.imagePath = '/durham-civil-rights-map-static/themes/custom/mappy/images/leaflet';
     var pmpIcon = L.Icon.extend({
         options: {
-            iconUrl: '/themes/custom/mappy/images/leaflet/pmp-marker-icon-green.png',
-            iconRetinaUrl: '/themes/custom/mappy/images/leaflet/pmp-marker-icon-green-2x.png',
+            iconUrl: '/durham-civil-rights-map-static/themes/custom/mappy/images/leaflet/pmp-marker-icon-green.png',
+            iconRetinaUrl: '/durham-civil-rights-map-static/themes/custom/mappy/images/leaflet/pmp-marker-icon-green-2x.png',
             iconSize: [25, 41],
             iconAnchor: [13, 40],
             popupAnchor: [1, -46]

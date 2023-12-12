@@ -46,18 +46,18 @@
   }
 
   // Set path to marker image.
-  L.Icon.Default.imagePath = '/themes/custom/mappy/images/leaflet';
+  L.Icon.Default.imagePath = '/durham-civil-rights-map-static/themes/custom/mappy/images/leaflet';
   var pmpIcon = L.Icon.extend({
     options: {
-      iconUrl: '/themes/custom/mappy/images/leaflet/pmp-marker-icon-green.png',
-      iconRetinaUrl: '/themes/custom/mappy/images/leaflet/pmp-marker-icon-green-2x.png',
+      iconUrl: '/durham-civil-rights-map-static/themes/custom/mappy/images/leaflet/pmp-marker-icon-green.png',
+      iconRetinaUrl: '/durham-civil-rights-map-static/themes/custom/mappy/images/leaflet/pmp-marker-icon-green-2x.png',
       iconSize: [25, 41],
       iconAnchor: [13, 40],
       popupAnchor: [1, -46]
     }
   });
 
-  $.getJSON('/points?_format=json', function (data) {
+  $.getJSON('/durham-civil-rights-map-static/points?_format=json', function (data) {
     addDataToMap(data, map, new pmpIcon);
     searchCtrl.indexFeatures(data, ['title_1', 'field_address_text', 'description', 'field_tags']);
     ga('send', {
